@@ -1,4 +1,4 @@
-# NYTimes Objective-C Style Guide
+# Arc90 Objective-C Style Guide (based on the NYTimes Style Guide)
 
 This style guide outlines the coding conventions of the iOS team at The New York Times. We welcome your feedback in [issues](https://github.com/NYTimes/objetive-c-style-guide/issues), [pull requests](https://github.com/NYTimes/objetive-c-style-guide/pulls) and [tweets](https://twitter.com/nytimesmobile). Also, [we're hiring](http://jobs.nytco.com/job/New-York-iOS-Developer-Job-NY/2572221/).
 
@@ -187,7 +187,7 @@ id varnm;
 
 ### Underscores
 
-When using properties, instance variables should always be accessed and mutated using `self.`. This means that all properties will be visually distinct, as they will all be prefaced with `self.`. Local variables should not contain underscores.
+When using properties, instance variables should be accessed and mutated using `self,` unless you're working with public read-only properties that you are updating within a private context. Local variables can contain underscores only if they are being used as temporary variables.
 
 ## Comments
 
