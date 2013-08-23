@@ -187,7 +187,7 @@ id varnm;
 
 ### Underscores
 
-When using properties, instance variables should be accessed and mutated using `self,` unless you're working with public read-only properties that you are updating within a private context. Local variables can contain underscores only if they are being used as temporary variables.
+When using properties, instance variables should be accessed and mutated using `self`, unless you're working with public read-only properties that you are updating within a private context. Local variables can contain underscores only if they are being used as temporary variables.
 
 ## Comments
 
